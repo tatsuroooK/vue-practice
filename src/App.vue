@@ -17,7 +17,6 @@ import ChatForm2 from './components/Form2'
 export default {
   name: 'App',
   components: {
-    Navbar,
     ChatBoard,
     ChatForm,
     ChatForm2,
