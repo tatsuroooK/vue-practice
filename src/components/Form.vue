@@ -16,7 +16,7 @@
       <!--コメント入力フォーム-->
       <v-card>
         <v-container>
-          <h2>コメント追加</h2>
+          <h2>コメント追加してね</h2>
           <v-form ref="form" v-model="valid" lazy-validation>
             <v-text-field
                 v-model="inputComment"

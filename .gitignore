@@ -19,3 +19,7 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw*
+
+# firebase.js (api keyとか入っているので)
+src/plugins/firebase.js
+firebase-debug.log

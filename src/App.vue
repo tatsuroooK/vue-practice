@@ -3,19 +3,30 @@
     <v-container>
       <ChatBoard/>
       <ChatForm/>
+      <ChatForm2/>
     </v-container>
   </v-app>
 </template>
 
 <script>
-  import ChatBoard from './components/ChatBoard'
-  import ChatForm from './components/Form'
+import HelloWorld from './components/HelloWorld'
+import ChatBoard from './components/ChatBoard'
+import ChatForm from './components/Form'
+import ChatForm2 from './components/Form2'
 
-  export default {
-    name: 'App',
-    components: {
-      ChatBoard,
-      ChatForm
-    },
+export default {
+  name: 'App',
+  components: {
+    Navbar,
+    ChatBoard,
+    ChatForm,
+    ChatForm2,
+    HelloWorld
+  },
+  data () {
+    return {
+      //
+    }
   }
+}
 </script>
